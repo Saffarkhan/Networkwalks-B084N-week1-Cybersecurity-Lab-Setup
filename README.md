@@ -89,6 +89,38 @@ Internship Kali Linux
 
 ![](Linux_Snapshot.PNG)
 
+# Lab Verification 
+
+| **Test** | **Command** | **Results** |
+|---|---|---|
+| Check IP address | `ip a` | Correct Kali IP displayed |
+|  Test gateway | `ping 10.0.0.1` | Successful replies |
+| Test Internet connectivity	 | `ping 8.8.8.8` | Successful replies |
+| Verify snapshot | Restore snapshot and run `ip a` | Baseline configuration restored |
+
+# Problems Encountered & Solutions
+
+## Problem-1: No Internet Connection on VirtualBox.
+The Kali Linux VM was unable to connect to the internet due to incorrect VirtualBox network settings.
+
+## Solution 
+
+- Checked the VirtualBox network settings.
+- Selected the correct network adapter and NAT Network.
+- Restarted the VM and verified internet connectivity.
+
+# Security and Ethical Use
+This laboratory is intended strictly for education purposes only.
+
+# Tools & resources
+- 7-Zip: https://7-zip.org/download.html
+- VirtualBox: https://virtualbox.org/wiki/Downloads
+- Kali Linux: https://kali.org/get-kali
+
+# Author
+**Safar Khan** Networkwalks Internee Batch B084N
+
+Linkedin: https://www.linkedin.com/in/saffarkhan/
 
 
 
