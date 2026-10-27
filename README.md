@@ -26,26 +26,25 @@ The Following Activities will be performed
 - Exploitation practice
 - Security-tool experimentation
 
-## Lab Architecture
-  ![](Networkwalks-B084N-week1-Cybersecurity-Lab-Setup/Virtual_Box_Installed.PNG)
-
 # Lab Setup Procedure
 ### Step-1: Install 7-Zip Software
 7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a .7z archive.
 
 **Tool**: 7-Zip
 
-![](Networkwalks-B084N-week1-Cybersecurity-Lab-Setup/Zip_Software_Installed.PNG)
+![](Zip_Software_Installed.PNG)
 
 ### Step 2: Install Oracle VirtualBox 
 Oracle Virtual Box Manager was installed on my Computer
 
 **Tool**: Virtual Box Manager
 
+ ![](Virtual_Box_Installed.PNG)
+
 ### Step 3: Creating NAT Network 
 Configured Network Name as NatNetwork, IPv4 Prefix as 10.0.0.0/24 and DHCP as Enabled
 
-![](Networkwalks-B084N-week1-Cybersecurity-Lab-Setup/NAT_Network_Config.PNG)
+![](NAT_Network_Config.PNG)
 
 A NAT Network was chosen to enable communication between lab VMs while providing outbound internet connectivity for future attacker and target machines.
 
@@ -62,7 +61,7 @@ Adapter Type: Intel PRO/1000 MT Desktop
 RAM: 4046 MB
 ```
 
-![](Networkwalks-B084N-week1-Cybersecurity-Lab-Setup/Kali_Linux_Installed.PNG)
+![](Kali_Linux_Installed.PNG)
 
 
 ### Step 5: Configure the Network in Linux
@@ -77,7 +76,7 @@ Gateway: 10.0.0.1
 DNS: 8.8.8.8
 ```
 
-![](Networkwalks-B084N-week1-Cybersecurity-Lab-Setup/Kali_Linux_Installed.PNG)
+![](Network_Configured.PNG)
 
 ### Step 6: Create a Clean Snapshot
 
@@ -88,6 +87,7 @@ The Snapshot Name is
 Internship Kali Linux
 ```
 
+![](Linux_Snapshot.PNG)
 
 
 
